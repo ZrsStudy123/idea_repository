@@ -1,6 +1,6 @@
 package com.zrsedu.Fanxing;
 
-import org.junit.jupiter.api.Test;
+
 
 import java.util.*;
 
@@ -8,7 +8,7 @@ public class HomeWork02 {
     public static void main(String[] args) {
 
     }
-    @Test
+
     public void test(){
         DAO<User> dao = new DAO<>();
         dao.save("001",new User("001",13,"jcak"));

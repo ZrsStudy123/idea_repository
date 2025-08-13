@@ -1,6 +1,6 @@
 package com.zrsedu.Fanxing;
 
-import org.junit.jupiter.api.Test;
+
 
 public class zidinyiFanxing {
     public static void main(String[] args) {
@@ -19,7 +19,7 @@ class Car{
      * 1. <T, R>就是泛型
      * 2. 是提供给 fly()方法使用的
      */
-    @Test
+
     public <T, R> void fly(T t, R r){
         System.out.println(t.getClass());
         System.out.println(r.getClass());
